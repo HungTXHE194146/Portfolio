@@ -7,6 +7,9 @@
 
 Quy trình: brief/tokens -> dựng UI -> chuyển động -> rà soát bằng `design-review` / `impeccable` / `web-design-guidelines` (lệch pixel, thang 4px, dark mode, tương phản, a11y) trước khi báo xong.
 
+## Tech stack (đã chốt)
+Next.js + Tailwind CSS + shadcn/ui; Magic UI / Aceternity cho hiệu ứng; Framer Motion (motion) cho chuyển động. Repo chưa scaffold app.
+
 ## Thư viện component (không phải skill – cài khi dựng UI)
 shadcn/ui (`npx shadcn@latest add <component>`), Magic UI, Aceternity UI. Ưu tiên lấy block có sẵn thay vì tự code từ đầu; chỉ dùng khi stack của repo là React + Tailwind.
 
